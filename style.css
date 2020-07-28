@@ -1,0 +1,368 @@
+body {
+	background: url(bg.png), #121a2a;
+			font-family: Montserrat;
+		font-weight: 600;
+		font-size: 14px;
+		color: #fff;
+}
+
+#head {
+	position: absolute;
+	width: 100%;
+	height: 4.5%;
+	background: linear-gradient(30deg, #12161e 0%, #202838 100%);
+	left: 0;
+	top: 0;
+	border-bottom: 2px solid #6349e8;
+}
+.logo {
+	left: 3%;
+	position: absolute;
+top: -5%;
+}
+.link a {
+	color: #6349e8;
+	font-family: Montserrat;
+	font-weight: 600;
+	text-decoration: none;
+	transition: .3s;
+	font-size: 14px;
+}
+.link {
+	display: inline-block;
+	margin-left: 50px;
+	padding: 15px;
+}
+.menu {
+	position: absolute;
+	left: 0;
+	right: 4.5%;
+	top: 0;
+	margin: auto;
+	text-align: center;
+}
+.link a:hover {
+	color: #3b4862;
+}
+.login a{
+	position: absolute;
+	background: linear-gradient(to top, #6349e8, #a56af3);
+	padding: .59%;
+		font-family: Montserrat;
+		font-weight: 600;
+		right: 3%;
+		font-size: 14px;
+		transition: .3s;
+}
+.login img {
+	width: 20px;
+	height: 20px;
+	    margin-bottom: -2%;
+}
+.login a{
+margin-left: 11%;
+color: #fff;
+text-decoration: none;
+transition: .3s;
+}
+.login a:hover {
+	background: linear-gradient(to top, #6148e4, #9d64e8);
+}
+#footer {
+	position: absolute;
+	width: 100%;
+	height: 6%;
+	background: linear-gradient(30deg, #12161e 0%, #202838 100%);
+	left: 0;
+	bottom: 0;
+	border-top: 2px solid #6349e8;
+}
+.year {
+	color: #6349e8;
+	font-weight: 400;
+}
+.copy {
+	color: #3b4862;
+	font-size: 16px;
+		position: absolute;
+	left: 0;
+	right: 0;
+	top: 35%;
+	margin: auto;
+	text-align: center;
+}
+.main {
+		width: 94%;
+				margin-top: 5%;
+				    margin-left: 3%;
+}
+
+.left {
+	width: 40%;
+	    position: relative;
+	    float: left;
+}
+.right {
+	width: 40%;
+	    position: relative;
+	    float: right;
+}
+.head {
+	    padding: 17px 17px;
+	    border-bottom: 1px solid #202838;
+}
+.txt_body {
+	    padding: 15px 20px;
+}
+.select {
+background: linear-gradient(30deg, #12161e 0%, #202838 100%);
+border: 1px solid #202838;
+	box-shadow: 0px 9px 26px #00000094;
+}
+
+.txt {
+	    height: 100px;
+	    color: #3b4862;
+}
+.txt p{
+	    text-align: center;
+	    position: relative;
+	    top: 50%;
+	    transform: translateY(-100%);
+}
+
+.title_sel {
+	color: #3b4862;
+}
+.sum {
+	color: #6349e8;
+	    float: right;
+}
+.inv {
+	margin-top: 65px;
+	background: linear-gradient(30deg, #12161e 0%, #202838 100%);
+border: 1px solid #202838;
+	box-shadow: 0px 9px 26px #00000094;
+}
+
+.steam a{
+	background: linear-gradient(to top, #6349e8, #a56af3);
+		font-family: Montserrat;
+		font-weight: 600;
+		font-size: 14px;
+		transition: .3s;
+		padding: 5px 15px;
+	    position: relative;
+	    left: calc( 50% - 93px);
+}
+.steam img {
+	width: 15px;
+	height: 15px;
+	    margin-bottom: -3px;
+}
+.steam a{
+color: #fff;
+text-decoration: none;
+transition: .3s;
+}
+.steam a:hover {
+	background: linear-gradient(to top, #6148e4, #9d64e8);
+}
+.steam {
+    position: relative;
+    top: 35%;
+}
+.inv .txt {
+height: 350px;
+}
+.inv .txt p{
+	    top: 30%;
+	    transform: translateY(0%);
+}
+ @media screen and (min-height: 1080px) {
+.inv .txt {
+height: 450px;
+}
+   }
+
+.middle {
+	width: 16%;
+	    position: relative;
+	    float: left;
+	    margin-left: 2%
+}   
+button {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+border: none;}
+button:hover {
+	cursor: pointer;
+}
+button.dep {background: linear-gradient(to left, #6349e8, #a56af3);transition: .3s;height: 40px;}
+button.dep:hover{
+	background: linear-gradient(to left, #6148e4, #9d64e8);
+}
+button.with {background: linear-gradient(to right, #6349e8, #a56af3);margin-top: 35px;transition: .3s;height: 40px;}
+button.with:hover{
+	background: linear-gradient(to right, #6148e4, #9d64e8);
+}
+button.as {
+background: linear-gradient(30deg, #12161e 0%, #202838 100%);
+border: 1px solid #202838;
+	box-shadow: 0px 9px 26px #00000094;
+	height: 35px;
+margin-top: 35px;
+color: #3b4862;
+transition: .3s;
+}
+button.as:hover{
+color: #6349e8;
+}
+
+.promo {
+    margin-top: 35px;
+    background: linear-gradient(30deg, #12161e 0%, #202838 100%);
+    border: 1px solid #202838;
+    box-shadow: 0px 9px 26px #00000094;
+    }
+input {
+	display: block;
+	width: 50%;
+	height: 35px;
+	padding: 6px 12px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.5;
+	color: #6349e8;
+	background-color: #00000029;
+	background-image: none;
+	border: none;
+
+left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 15px;
+	}
+.promo_t {
+	    color: #3b4862;
+	    font-size: 14px;
+}
+::placeholder {
+	color: #3b4862;
+	font-family: Montserrat;
+}
+.rates {
+	    padding-top: 35px;
+	    text-align: center;
+}
+.rates .m_title{
+	    color: #3b4862;
+	    margin-bottom: -15px;
+}
+.rates .rate{margin-top: -15px;margin-bottom: 10px;color: #6349e8;}
+.split {
+	    width: 1px;
+	    display: inline-block;
+	    background: #6349e8;
+	    height: 10px;
+	    margin: 0 10px;
+}
+#sign {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(30deg, #12161e 0%, #202838 100%);
+    border: 1px solid #202838;
+    box-shadow: 0px 9px 26px #00000094;
+    color: #fff;
+    position: absolute;
+    top: -10%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    }
+.close {
+    display: inline-block;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    background: #6349e8;
+    font-size: 11pt;
+    border-radius: 15px;
+    float: right;
+    position:  relative;
+    top: -80px;
+    left: 25px;
+    }        
+.close:hover {cursor: pointer;}
+#bg {
+    background: rgba(21, 25, 34, 0.88);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    }
+#bg:target {display: block;}
+#sign .steam a{
+       	left: 0;
+}
+#total {
+    display: inline;
+}
+ @media screen and (max-height: 768px) {
+.inv .txt {
+height: 200px;
+}
+.link {
+	    padding: 8px;
+   }
+   .promo button.with {
+   	margin-top: 15px;
+   }
+   .rates {
+   	font-size: 12px;
+   	padding-top: 15px;
+   }
+
+   img.logo {
+   	height: 30px!important;
+   	width: auto!important;
+    }
+    .logo {
+    	top: 0;
+    }
+}
+ @media screen and (max-height: 900px) {
+ 	.menu {
+ 	    top: -11%;	
+ 	}
+ 	   img.logo {
+   	height: 30px!important;
+   	width: auto!important;
+    }
+        .logo {
+    	top: 0;
+    }
+.inv .txt {
+height: 220px;
+}
+   .rates {
+   	font-size: 12px;
+   	padding-top: 15px;
+   }
+   .promo {
+   	margin-top: 20px;
+   }
+   button.as {
+   	margin-top: 20px;
+   }
+ 	}
